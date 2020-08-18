@@ -3,11 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Survey</title>
+    <title>Avion School Survey</title>
 </head>
-<body>
-  <form action="submit.html" method="post">
 
+
+<body>
+  <h1>Avion School Survey Form</h1>
+  <h2><em>Thank you for taking the time to help us improve the platform.</em></h2>
+
+  <form action="submit.html" method="post">
+    <div class="form-group">
+      <p>Full Name</p>
+      <input type="text" name="name" class="full-name" placeholder="Name"><br>
+    </div>
+    <div class="form-group">
+      <p>Email address</p>
+      <input type="email" name="email" class="e-mail" placeholder="Email"><br>
+    </div>
+    <div class="form-group">
+      <p>Age (optional)</p>
+      <input type="number" name="age" class="age" placeholder="Age"><br>
+    </div>
+    <div class="form-group">
+      <p>Which option best describes your current role?</p>
+      <select name="role" class="choose-role" id="choice">
+          <option disabled selected value>Select an option</option>
+          <option value="student">Student</option>
+          <option value="full-time-job">Full Time Job</option>
+          <option value="full-time-learner">Full Time Learner</option>
+          <option value="prefer-not-say">Prefer not to say</option>
+          <option value="other">Other</option>
+      </select>
+    </div>
 
     <!-- Lia's Section -->
     <div class="form-group">
