@@ -11,21 +11,92 @@ html{
 }
 
 body {
-    background-image: url(https://images.pexels.com/photos/2451645/pexels-photo-2451645.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-image: url(https://images.pexels.com/photos/6224/hands-people-woman-working.jpg?auto=compress&cs=tinysrgb&h=650&w=940);
+    background-position: center;
     background-size: cover;
-    background-position: top center;
-    position: relative;
+    margin-top: 40px;
     z-index: 1;
 }
-
-body::after {
+body ::after{
     content:"";
     position:absolute;
     left:0;
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: black;
+    background-color: rgba(70, 7, 7, 0.253);
     z-index: -1;
-    opacity: 0.8;
+    opacity: 0.08;
+
+}
+}
+#surveyForm {
+    flex-direction: column;
+    text-align: left;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px 0;
+    background-color: gray;
+}
+
+#surveyForm .surveyFormTop{
+    width: 800px;
+    background-color: rgb(155, 20, 20);
+    color: white;
+    margin:auto;
+    padding: 10px 0px 10px 0px;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+}
+
+#surveyForm .mainForm{
+    background-color: white;
+    width:800px;
+    margin:0 auto;
+}
+
+form{
+    padding:10px;
+}
+
+.formLabel{
+    font-size: 16px;
+    margin-bottom: 30px;
+    width: 125px;
+    margin-left:25px;
+}
+.name,.email,.age,.currentRole,.recommendation,.feature, .commentsAndSuggestions, .improvements {
+    width:500px;
+    margin-left: 20px;
+    margin-bottom:30px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.choice1, .choice2, .choice3, .choice4 {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+
+}
+
+}
+/*input[type="text"] {
+    width:500px;
+}
+*.name {
+    width: 700px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    height: 40px;
+
+}
+/*.name{
+    position:relative;
+    left:20px;
+    line-height:10px;
+    border-radius: 3px;
+    padding: 0 50px;
+    font-size: 16px;
 }
