@@ -99,6 +99,8 @@ form{
     height: 30px;
 }
 
+button {
+    padding: 8px 16px;
 }
 /*input[type="text"] {
     width:500px;
