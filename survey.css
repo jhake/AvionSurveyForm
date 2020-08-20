@@ -4,7 +4,8 @@
     margin:0;
     box-sizing: border-box;
 }
-
+.resizedTextbox {
+    width: 700px; height: 400px}
 html{
     font-size:10px;
     font-family:'Montserrat', sans-serif;
